@@ -2,3 +2,5 @@
 require("config.lazy")
 
 vim.g.mapleader = " "
+
+inoremap jj <Esc>
