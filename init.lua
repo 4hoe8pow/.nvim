@@ -1,6 +1,8 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 
+local set = vim.keymap.set
+
 vim.g.mapleader = " "
 
-inoremap jj <Esc>
+set("i", "<esc>", "jj")
